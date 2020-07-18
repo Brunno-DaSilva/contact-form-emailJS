@@ -509,7 +509,19 @@ Add the handleChange Method to your form's inputs name, email, subject, and text
 
 According to EmailJS's documentation we are using their sendForm() method that takes four parameters
 
+- EmailJS Service ID
+  - "gmail"
+- EmailJS Template ID
+  - "my-portfolio-contact-page"
+- Element or selector of the form (Class or ID)
+  - .contact-form #contactForm
+- EmailJS User ID
+  - Go to Account >> API Keys
+  - user_blablaOwC88fGfGfahg
+
 ## ![modern art](./img/sendFormMethod.png)
+
+This method can take promises and any error can be handled by catch(). After that set the state to empty strings so you can clear out the form.
 
 ```
 handleSubmit = (e) => {
