@@ -535,7 +535,7 @@ emailjs
 "gmail",
 "bruno_portfolio_message",
 "#contactForm",
-"user_oyLJWpa6rPOwCCyxCKMdJ"
+"user_blablaOwC88fGfGfahg"
 )
 .then("REMOVE THIS - here you could handle an alert msg")
 .catch( err => {
@@ -596,7 +596,7 @@ emailjs
 "gmail",
 "bruno_portfolio_message",
 "#contactForm",
-"user_oyLJWpa6rPOwCCyxCKMdJ"
+"user_blablaOwC88fGfGfahg"
 )
 .then()
 .catch();
