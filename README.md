@@ -7,6 +7,8 @@ Create a simple React contact form with real time email handler using using thir
     Requests up to 50Kb
     Limited contacts history
 
+## ![modern art](./img/finalform.png)
+
 Let's get started.
 
 ### Step 1: Creating an EmailJS account
@@ -535,8 +537,10 @@ emailjs
 "#contactForm",
 "user_oyLJWpa6rPOwCCyxCKMdJ"
 )
-.then()
-.catch();
+.then("REMOVE THIS - here you could handle an alert msg")
+.catch( err => {
+    console.error('Email Error', err)
+});
 
     this.setState({
       name: "",
@@ -548,6 +552,20 @@ emailjs
 
 };
 
+```
+
+Add the onSubmit handler to your Form `<form onSubmit={this.handleSubmit} >`
+
+Finally, you can set the success message to true if the form is submitted
+
+```
+{this.state.messageSent ? (
+  <div className="alert animated fadeInUp">
+    Your Message has been sent
+  </div>
+) : (
+  ""
+)}
 ```
 
 <details><summary>Final Contact Form Component</summary>
