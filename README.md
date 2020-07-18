@@ -1,6 +1,6 @@
 # Contact Form with EmailJS
 
-Create a simple React contact form with real time email handler using using third-party service EmailJS. EmailJS allows you to send email directly from your client-side Javascript code. It's free package includes:
+Create a simple React contact form with real time email handler using third-party service EmailJS. EmailJS allows you to send email directly from your client-side Javascript code. It's free package includes:
 
     200 monthly requests
     2 email templates
@@ -9,7 +9,7 @@ Create a simple React contact form with real time email handler using using thir
 
 ## ![modern art](./img/finalform.png)
 
-Let's get started.
+## Let's Start
 
 ### Step 1: Creating an EmailJS account
 
@@ -19,7 +19,7 @@ Go to https://www.emailjs.com/ and create an account. For a portfolio usage the 
 
 Once your account is created, you will need to configure an email service as well as a email template to organize the content that will come from your react-form.
 
-##### Select an Email provider
+#### Select an Email provider
 
 - Click on `Email Services`, If necessary click on the button `Add new service`
   - ## ![modern art](./img/email-services.jpeg)
@@ -27,7 +27,7 @@ Once your account is created, you will need to configure an email service as wel
   - ## ![modern art](./img/provider.png)
 - Click on `connect account` and allow emailJS to send emails on your behalf, follow the prompts until it is configure.
 
-##### Build your email Template
+#### Build your email Template
 
 - Inside the `Email Template` tab click on `Create new template`
 - The parameter coming from your form must be surround in double curly braces
@@ -49,7 +49,7 @@ Once your account is created, you will need to configure an email service as wel
 
 So the template would contain `{{firstName}}` and `{{lastName}}`
 
-##### My template:
+#### My template:
 
 Subject: `Message From your Portfolio`
 
