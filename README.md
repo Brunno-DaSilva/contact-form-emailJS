@@ -78,6 +78,8 @@ Best wishes,
 From your Portfolio
 ```
 
+## ![modern art](./img/EmailTemplate.png)
+
 #### React Form Component
 
 For my contact form component I have added two dependencies the EmailJS and FontAwesome
@@ -105,7 +107,7 @@ export default Contact;
 
 ```
 
-##### Import FontAwesome and emailjs to your
+#### Import FontAwesome and emailjs to your
 
 ```
 import emailjs from "emailjs-com";
@@ -114,7 +116,7 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
 ```
 
-##### Now, let's add the JSX for the form and it's style in the index.css
+#### Now, let's add the JSX for the form and it's style in the index.css
 
 JSX: Contact.js
 
