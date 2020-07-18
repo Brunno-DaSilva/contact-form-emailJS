@@ -20,7 +20,9 @@ Once your account is created, you will need to configure an email service as wel
 ##### Select an Email provider
 
 - Click on `Email Services`, If necessary click on the button `Add new service`
+  - ## ![modern art](./img/email-services.jpeg)
 - Select an email service provider that will manage your account. In my case I choose gmail.
+  - ## ![modern art](./img/provider.png)
 - Click on `connect account` and allow emailJS to send emails on your behalf, follow the prompts until it is configure.
 
 ##### Build your email Template
@@ -28,7 +30,7 @@ Once your account is created, you will need to configure an email service as wel
 - Inside the `Email Template` tab click on `Create new template`
 - The parameter coming from your form must be surround in double curly braces
 - Example:
--
+- ## ![modern art](./img/email-template.png)
 
 ```
    <input
