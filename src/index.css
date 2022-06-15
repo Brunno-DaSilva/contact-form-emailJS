@@ -80,6 +80,7 @@ body {
 
 .wrapper-contact {
   width: 40%;
+  height: 70%;
   display: grid;
   grid-template-columns: 1fr !important;
   text-align: center;
@@ -87,7 +88,7 @@ body {
 }
 
 .contact {
-  background: #ffffff;
+  background: transparent;
   width: 100%;
   border-radius: 0.3rem;
 }
@@ -95,7 +96,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1px;
-  background-color: #ebecee;
+  background-color: transparent;
   border-radius: 0.3rem;
 }
 .contact form input,
